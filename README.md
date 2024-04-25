@@ -5,9 +5,9 @@ STEPS:
 4.	Create a .env file containing your configuration variables
 5.	Create a docker-compose.yml file
 6.	Edit the api docker file to contain the following prompts 
-# Copy package.json and package-lock.json 
+#Copy package.json and package-lock.json 
 COPY package*.json ./  
-# Copy the rest of the application 
+#Copy the rest of the application 
 COPY . .
 7.	Run the command docker-compose up
 8.	To check your work 
